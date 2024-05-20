@@ -1,26 +1,40 @@
-# aula-fetch-api
+# Aula sobre Fetch API
 
-a [Sails v1](https://sailsjs.com) application
+Este é um exemplo de aula para ensinar sobre como usar a Fetch API para fazer requisições HTTP em uma aplicação web.
+
+## Descrição
+
+A Fetch API fornece uma interface para buscar recursos (incluindo na rede). Ela se parece com a XMLHttpRequest (XHR), mas é mais poderosa e flexível.
+
+Nesta aula, vamos aprender como usar a Fetch API para:
+
+- Fazer requisições GET, POST, PUT e DELETE
+- Enviar dados para o servidor
+- Lidar com respostas da API
+
+## Pré-requisitos
+
+Antes de começar esta aula, é recomendado ter conhecimento básico de HTML, CSS e JavaScript.
+
+## Como usar este exemplo
+
+1. Clone este repositório em sua máquina local:
+
+```bash
+git clone https://github.com/seu-usuario/exemplo-fetch-api.git
+```
 
 
-### Links
+2. Abra o arquivo `index.html` em seu navegador web.
 
-+ [Sails framework documentation](https://sailsjs.com/get-started)
-+ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
-+ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
-+ [Community support options](https://sailsjs.com/support)
-+ [Professional / enterprise options](https://sailsjs.com/enterprise)
+3. Siga as instruções fornecidas na página para interagir com a aplicação.
 
+## Conteúdo do Repositório
 
-### Version info
+- `index.html`: Página principal da aplicação contendo exemplos de uso da Fetch API.
+- `script.js`: Script JavaScript contendo as funções para interagir com a Fetch API.
+- `style.css`: Arquivo CSS com estilos simples para a página.
 
-This app was originally generated on Sun May 19 2024 23:07:30 GMT-0300 (Horário Padrão de Brasília) using Sails v1.5.9.
+## Contribuição
 
-<!-- Internally, Sails used [`sails-generate@2.0.10`](https://github.com/balderdashy/sails-generate/tree/v2.0.10/lib/core-generators/new). -->
-
-
-
-<!--
-Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
--->
-
+Contribuições são bem-vindas! Se você encontrar um bug ou tiver alguma sugestão de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
