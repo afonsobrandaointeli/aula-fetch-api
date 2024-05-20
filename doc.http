@@ -1,0 +1,73 @@
+# Cria 5 alunos diferentes (POST /aluno)
+POST http://localhost:1337/aluno
+Content-Type: application/json
+
+{
+  "nome": "João da Silva",
+  "idade": 25
+}
+
+###
+POST http://localhost:1337/aluno
+Content-Type: application/json
+
+{
+  "nome": "Maria Souza",
+  "idade": 22
+}
+
+###
+POST http://localhost:1337/aluno
+Content-Type: application/json
+
+{
+  "nome": "Pedro Santos",
+  "idade": 30
+}
+
+###
+POST http://localhost:1337/aluno
+Content-Type: application/json
+
+{
+  "nome": "Ana Oliveira",
+  "idade": 28
+}
+
+###
+POST http://localhost:1337/aluno
+Content-Type: application/json
+
+{
+  "nome": "Carlos Ferreira",
+  "idade": 35
+}
+
+###
+
+# Lista todos os alunos (GET /aluno)
+GET http://localhost:1337/aluno
+
+###
+
+# Atualiza um aluno (PUT /aluno/:id)
+PUT http://localhost:1337/aluno/5
+Content-Type: application/json
+
+{
+  "nome": "Maria Silva",
+  "idade": 23
+}
+
+###
+
+# Remove um aluno (DELETE /aluno/:id)
+DELETE http://localhost:1337/aluno/5
+
+###
+DELETE http://localhost:1337/aluno/4
+
+###
+
+# Lista todos os alunos após as alterações (GET /aluno)
+GET http://localhost:1337/aluno
